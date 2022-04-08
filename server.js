@@ -10,7 +10,7 @@ app.get("/", (req,res) =>{
     res.send('As 666 da noite eu te conto')
 })
 
-app.use('/',dataroute)
+app.use('/api',dataroute)
 
 app.use('/fds', (req,res) =>{
     res.send("fds")
