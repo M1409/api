@@ -2,7 +2,7 @@ const express = require('express')
 const dataroute = require('./src/data/routes')
 
 const app = express()
-const port = 666
+const port =  process.env.PORT || 666
 
 app.use(express.json())
 
