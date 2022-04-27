@@ -2,6 +2,8 @@
   "dependencies": {
     "express": "^4.17.3",
     "heroku": "^7.60.1",
+    "http-proxy-middleware": "^2.0.5",
+    "morgan": "^1.10.0",
     "pg": "^8.7.3"
   },
   "name": "nodejs_api",
@@ -12,5 +14,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "proxy": "http://localhost:5500"
 }

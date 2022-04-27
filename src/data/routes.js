@@ -9,7 +9,6 @@ router.post('/post',controller.addData)
 router.put('/update/:id',controller.uptadeData)
 router.delete('/delete/:id',controller.deleteData)
 
-
 module.exports = router
 
 
