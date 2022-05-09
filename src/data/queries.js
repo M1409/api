@@ -2,7 +2,6 @@ const tabela = 'aluno'
 const param = 'id'
 const param2 = 'nome'
 
-
 const getData1 = `SELECT * FROM ${tabela} `
 const getData1byid = `SELECT * FROM ${tabela} where ${param} = $1`
 const checkId = `SELECT s from ${tabela} s where s.${param} = $1`

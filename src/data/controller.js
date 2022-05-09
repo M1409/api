@@ -16,6 +16,7 @@ const getDatabyId = (req,res) =>{
     })
 }
 
+
 const addData = (req,res) =>{
     const {id,nome,idade,media,data_mat} = req.body
 
@@ -67,8 +68,8 @@ const uptadeData = (req,res) =>{
         })
 
     })
-
 }
+
 
 module.exports = {
     getData,
